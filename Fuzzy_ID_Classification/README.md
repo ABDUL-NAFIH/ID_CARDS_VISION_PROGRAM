@@ -31,10 +31,7 @@ which also mitigate the problem of vanishing gradient.
 
 The backbone is followed by three Dense layers with dropout for regularization and a dense output layer with softmax activation.   
 Loss: Categorical cross entropy.
-    
-## Data
-
-original dataset comes from https://arxiv.org/abs/1807.05786 -- MIDV-500 A Dataset for Identity Documents Analysis and Recognition on Mobile Devices in Video Stream.  
+     
 
 ### 1) images
 A folder containing pictures of different types of ID documents taken in different conditions and backgrounds. Pictures are corrupted.
